@@ -1,0 +1,3 @@
+A pasta public você executa direto no endereço do navegador
+consegue ir para esse txt direto na barra de endereço:
+http://localhost:5173/public.txt

@@ -1,0 +1,3 @@
+Já a pasta assets, só consegue acessar ele, dentro do react 
+consegue importar no App.tsx
+não vai ser uma requisição no public no servidor
