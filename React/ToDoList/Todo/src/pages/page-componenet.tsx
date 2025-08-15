@@ -42,12 +42,15 @@ export default function PageComponenet(){
     </div>
     <div>
           <Button icon={PlusIcon}>Nova tarefa</Button>
+          <br></br>
+          <Button icon={PlusIcon} handling>Criando..</Button>
     </div>
     <div className="flex gap-1">
       <ButtonIcon icon={TrashIcon}/>
       <ButtonIcon icon={TrashIcon} variant="secondary"/>
       <ButtonIcon icon={TrashIcon} variant="tertiary"/>
        <ButtonIcon icon={TrashIcon} loading/>
+       <ButtonIcon icon={TrashIcon} handling/>
     </div>
 
     <div>

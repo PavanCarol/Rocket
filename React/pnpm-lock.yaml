@@ -11,6 +11,9 @@ importers:
       react-router:
         specifier: ^7.8.0
         version: 7.8.0(react@19.1.1)
+      use-local-storage:
+        specifier: ^3.0.0
+        version: 3.0.0(react@19.1.1)
 
 packages:
 
@@ -35,6 +38,11 @@ packages:
   set-cookie-parser@2.7.1:
     resolution: {integrity: sha512-IOc8uWeOZgnb3ptbCURJWNjWUPcO3ZnTTdzsurqERrP6nPyv+paC55vJM0LpOlT2ne+Ix+9+CRG1MNLlyZ4GjQ==}
 
+  use-local-storage@3.0.0:
+    resolution: {integrity: sha512-wlPNnBCG3ULIJMr5A+dvWqLiPWCfsN1Kwijq+sAhT5yV4ex0u6XmZuNwP+RerIOfzBuz1pwSZuzhZMiluGQHfQ==}
+    peerDependencies:
+      react: '>=16.8.1'
+
 snapshots:
 
   cookie@1.0.2: {}
@@ -48,3 +56,7 @@ snapshots:
   react@19.1.1: {}
 
   set-cookie-parser@2.7.1: {}
+
+  use-local-storage@3.0.0(react@19.1.1):
+    dependencies:
+      react: 19.1.1
