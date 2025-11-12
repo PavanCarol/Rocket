@@ -5,6 +5,7 @@ import ChevronRightIcon from "./assets/icons/chevron-right.svg?react";
 import Badge from "./components/badge";
 import Alert from "./components/alert";
 import Divider from "./components/divider";
+import InputText from "./components/input-text";
 
 // roda o sevidor: pnpm dev-server
 //rodar o front: entrar na pasta gallery-plus-template e rodar pnpm dev
@@ -50,6 +51,10 @@ export default function App() {
 
 			<div>
 				<Divider />
+			</div>
+
+			<div>
+				<InputText placeholder="buscar foto"/>
 			</div>
 		</div>
 	);
